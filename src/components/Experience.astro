@@ -1,0 +1,96 @@
+---
+import ExperienceItem from "./ExperienceItem.astro";
+const EXPERIENCIE = [
+  {
+    date: "Currently...",
+    title: "Full stack Developer",
+    company: "Kaiser Permanente",
+    industries: "Healthcare",
+    description:
+      "As a Lead Front End Developer, I spearheaded the development of the Insight Driven web application, enhancing process efficiency and managing a team of developers. I implemented React with Redux, integrated React Router and Hooks, and connected to microservices using Axios API and Server-Sent Events. Additionally, I ensured robust testing with Jest and Vitest, and successfully transitioned to a scalable microservices-based architecture, improving system agility and accelerating feature releases.",
+    // link: "https://twitch.tv/midudev",
+  },
+  {
+    date: "Jan 2022 – Dec 2022",
+    title: "Full stack Developer",
+    company: "Expeditors International",
+    industries: "Logistics",
+    description:
+      "Spearheaded software development projects, managing a team to enhance process efficiency and maintain high code quality. Implemented React with Redux, integrated React Router Version 6, and connected to microservices using Axios API for data retrieval.",
+  },
+  {
+    date: "Jan 2021 – Dec 2021",
+    title: "Sr. Front End Developer",
+    company: "Navy Federal Credit Union",
+    industries: "Finance/Banking",
+    description:
+      "Spearheaded software development projects, managing a team to enhance process efficiency and maintain high code quality. Implemented React with Redux, integrated React Router Version 6, and connected to microservices using Axios API for data retrieval.",
+  },
+  {
+    date: "Jan 2022 – Dec 2022",
+    title: "Sr. Front End Developer",
+    company: "Wells Fargo Capital Finance",
+    industries: "Finance/Banking",
+    description:
+      "Spearheaded software development projects, managing a team to enhance process efficiency and maintain high code quality. Implemented React with Redux, integrated React Router Version 6, and connected to microservices using Axios API for data retrieval.",
+  },
+  {
+    date: "Jan 2022 – Dec 2022",
+    title: "Sr. Front End Developer",
+    company: "Expeditors International - Logistics",
+    industries: "Finance/Banking",
+    description:
+      "Spearheaded software development projects, managing a team to enhance process efficiency and maintain high code quality. Implemented React with Redux, integrated React Router Version 6, and connected to microservices using Axios API for data retrieval.",
+  },
+  {
+    date: "Jan 2022 – Dec 2022",
+    title: "Sr. Front End Developer",
+    company: "Expeditors International - Logistics",
+    industries: "Finance/Banking",
+    description:
+      "Spearheaded software development projects, managing a team to enhance process efficiency and maintain high code quality. Implemented React with Redux, integrated React Router Version 6, and connected to microservices using Axios API for data retrieval.",
+  },
+  {
+    date: "Jan 2022 – Dec 2022",
+    title: "Sr. Front End Developer",
+    company: "Expeditors International - Logistics",
+    industries: "Finance/Banking",
+    description:
+      "Spearheaded software development projects, managing a team to enhance process efficiency and maintain high code quality. Implemented React with Redux, integrated React Router Version 6, and connected to microservices using Axios API for data retrieval.",
+  },
+  {
+    date: "Jan 2022 – Dec 2022",
+    title: "Sr. Front End Developer",
+    company: "Expeditors International - Logistics",
+    industries: "Finance/Banking",
+    description:
+      "Spearheaded software development projects, managing a team to enhance process efficiency and maintain high code quality. Implemented React with Redux, integrated React Router Version 6, and connected to microservices using Axios API for data retrieval.",
+  },
+  {
+    date: "Jan 2022 – Dec 2022",
+    title: "Sr. Front End Developer",
+    company: "Expeditors International - Logistics",
+    industries: "Finance/Banking",
+    description:
+      "Spearheaded software development projects, managing a team to enhance process efficiency and maintain high code quality. Implemented React with Redux, integrated React Router Version 6, and connected to microservices using Axios API for data retrieval.",
+  },
+  {
+    date: "Jan 2022 – Dec 2022",
+    title: "Sr. Front End Developer",
+    company: "Expeditors International - Logistics",
+    industries: "Finance/Banking",
+    description:
+      "Spearheaded software development projects, managing a team to enhance process efficiency and maintain high code quality. Implemented React with Redux, integrated React Router Version 6, and connected to microservices using Axios API for data retrieval.",
+  },
+];
+---
+
+<ol class="relative mt-16">
+  {
+    EXPERIENCIE.map((experiencie) => (
+      <li class="">
+        <ExperienceItem {...experiencie} />
+      </li>
+    ))
+  }
+</ol>
